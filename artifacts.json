@@ -1,0 +1,18 @@
+{
+  "artifacts": [
+    {
+      "id": 1,
+      "name": "Firestaff",
+      "price": 100,
+      "curse": "",
+      "effect": "none atm :)"
+    },
+    {
+      "id": 2,
+      "name": "Icestaff",
+      "price": 300,
+      "curse": "",
+      "effect": "elo elo"
+    }
+  ]
+}

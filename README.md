@@ -3,4 +3,5 @@
 - dodanie main funkji
 - plik json z artefaktami
 - grafiki
+- dodanie tego wszystkiego do bota
 

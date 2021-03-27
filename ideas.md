@@ -1,5 +1,6 @@
 ## Pomysły:
 - dodanie warjacji kupców
 - dodanie opcji dodawania sugestii
-- `www.buymeacoffee.com / www.patreon.com`
+- [Buymeacoffie](www.buymeacoffee.com) / [Patreon](www.patreon.com)
 - stronka internetowa
+- wysyłanie ofert sklepikarza jako obrazki

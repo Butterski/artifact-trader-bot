@@ -7,6 +7,6 @@ def print_artifacts():
 
         print("List of all Artifacts:")
         for item in data["artifacts"]:
-            print(f'ID: {item["id"]}, Name: {item["name"]} , Price: {item["price"]}, ')
+            print(f'ID: {item["id"]}, Name: {item["name"]} ')
 
 print_artifacts()

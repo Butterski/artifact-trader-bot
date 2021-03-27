@@ -6,7 +6,7 @@ def print_artifacts():
           data = json.load(artifact_file)
 
         print("List of all Artifacts:")
-        for i in data["artifacts"]:
-            print(f'ID: {i["id"]}, Name: {i["name"]} , Price: {i["price"]}, ')
+        for item in data["artifacts"]:
+            print(f'ID: {item["id"]}, Name: {item["name"]} , Price: {item["price"]}, ')
 
 print_artifacts()

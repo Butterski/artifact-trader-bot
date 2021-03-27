@@ -23,7 +23,7 @@
     },
     {
       "id": 4,
-      "name": "Potion zdrowia słaby",
+      "name": "Potion zdrowia slaby",
       "price": 20,
       "curse": "",
       "effect": "heal"

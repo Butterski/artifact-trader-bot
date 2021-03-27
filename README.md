@@ -1,7 +1,7 @@
 # Artifact Trader Bot
 **todo:**
-- dodanie main funkji
-- plik json z artefaktami
-- grafiki
-- dodanie tego wszystkiego do bota
+- [ ] dodanie main funkji
+- [x] plik json z artefaktami
+- [ ] grafiki
+- [ ] dodanie tego wszystkiego do bota
 

@@ -5,3 +5,4 @@
 - [ ] grafiki
 - [ ] dodanie tego wszystkiego do bota
 - [x] dodanie rarity przedmiotów
+- [ ] dodanie prawdziwych przedmiotow do jsona :cowboy_hat_face:

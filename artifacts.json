@@ -20,6 +20,13 @@
       "price": 200,
       "curse": "you cant drink water",
       "effect": "you splash water"
+    },
+    {
+      "id": 4,
+      "name": "Potion zdrowia słaby",
+      "price": 20,
+      "curse": "",
+      "effect": "heal"
     }
   ]
 }

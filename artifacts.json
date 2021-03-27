@@ -13,6 +13,13 @@
       "price": 300,
       "curse": "",
       "effect": "elo elo"
+    },
+    {
+      "id": 3,
+      "name": "Waterstaff",
+      "price": 200,
+      "curse": "you cant drink water",
+      "effect": "you splash water"
     }
   ]
 }

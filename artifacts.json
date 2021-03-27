@@ -3,22 +3,16 @@
     "rarity": {
       "common" : [
         {
-          "name": "Firestaff",
+          "name": "Commonstaff",
           "price": 100,
           "curse": "",
           "effect": "none atm :)"
-        },
-        {
-          "name": "Waterstaff",
-          "price": 300,
-          "curse": "",
-          "effect": "splash"
         }
       ],
 
       "rare" : [
         {
-          "name": "Goodstaff",
+          "name": "Rarestaff",
           "price": 400,
           "curse": "",
           "effect": "good"
@@ -32,12 +26,14 @@
           "effect": "soo epic"
         }
       ],
-      "legendary" : {
-        "name": "Legendearystaff",
-          "price": 700,
+      "legendary" : [
+        {
+          "name": "Legendearystaff",
+          "price": 7000,
           "curse": "",
           "effect": "legendary staff :()"
-      }
+        }
+      ]
     }
   }
 

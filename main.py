@@ -66,9 +66,11 @@ async def gen_offer(ctx, how_many):
     for i in range(int(how_many)):
         name, price, effect, curse = generate_random_artifact()
         embed = discord.Embed(title='Here is my offer for you today',
-                              description=f'**{name}**\n Price: **{price}** \n "{effect}"',
                               color=0x654321
                               )
+        embed.add_field(name="Name:", value=f'**{name}**', inline=True)
+        embed.add_field(name="Price:", value=f'**{price}**', inline=True)
+        embed.add_field(name="Description:", value=f'{effect}', inline=False)
         embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/721846941926817924/825500010174480384/avatar.png')
         await ctx.send(embed=embed)
 

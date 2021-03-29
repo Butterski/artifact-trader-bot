@@ -61,8 +61,8 @@ async def on_ready():
 
 @client.command()
 async def gen_offer(ctx, how_many):
-    if int(how_many) > 5:
-        how_many = 5
+    if int(how_many) > 15:
+        how_many = 15
     for i in range(int(how_many)):
         name, price, effect, curse = generate_random_artifact()
         embed = discord.Embed(title='Here is my offer for you today',

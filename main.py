@@ -3,6 +3,7 @@ from discord.ext import commands
 import json
 import time
 from datetime import date
+from token import TOKEN
 import random
 import requests
 
@@ -67,5 +68,5 @@ async def gen_offer(ctx):
     await ctx.send(embed=embed)
 
 
-client.run('ODI0OTcwOTEyMzgyMTg5NTcx.YF3ICA.xpeeRYRiLaA24YZw1TgxSWRh5Uo')
+client.run(TOKEN)
 

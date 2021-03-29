@@ -1,5 +1,10 @@
+import discord
+from discord.ext import commands
 import json
+import time
+from datetime import date
 import random
+import requests
 
 
 with open('artifacts.json') as artifact_file:  # open file as data variable
@@ -38,8 +43,40 @@ def generate_random_artifact():
 
         price = random_artifact["price"]
         price = price_modifier(price)
-        print(f'Name: {random_artifact["name"]}, Price: {price}')  # prints item id and name
+        name = random_artifact["name"]
+        curse = random_artifact["curse"]
+        effect = random_artifact["effect"]
+        return name, price, effect, curse
 
 
-for i in range(100):
-    generate_random_artifact()
+client = commands.Bot(command_prefix='$')
+
+
+@client.event
+async def on_ready():
+    print('Logged on as ', client.user.name, client.user.id)
+    print("Date: ", date.today())
+    print('-----------------------------------------------')
+    await client.change_presence(status=discord.Status.online, activity=discord.Game('stall'))
+
+
+@client.command()
+
+async def gen_offer(ctx, how_many):
+    if int(how_many) > 15:
+        how_many = 15
+    for i in range(int(how_many)):
+        name, price, effect, curse = generate_random_artifact()
+        embed = discord.Embed(title='Here is my offer for you today',
+                              color=0x654321
+                              )
+        embed.add_field(name="Name:", value=f'**{name}**', inline=True)
+        embed.add_field(name="Price:", value=f'**{price}**', inline=True)
+        embed.add_field(name="Description:", value=f'{effect}', inline=False)
+        embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/721846941926817924/825500010174480384/avatar.png')
+        await ctx.send(embed=embed)
+
+
+
+client.run('ODI0OTcwOTEyMzgyMTg5NTcx.YF3ICA.xpeeRYRiLaA24YZw1TgxSWRh5Uo')
+

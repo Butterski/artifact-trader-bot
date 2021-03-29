@@ -1,32 +1,41 @@
 {
-  "artifacts": [
-    {
-      "id": 1,
-      "name": "Firestaff",
-      "price": 100,
-      "curse": "",
-      "effect": "none atm :)"
-    },
-    {
-      "id": 2,
-      "name": "Icestaff",
-      "price": 300,
-      "curse": "",
-      "effect": "elo elo"
-    },
-    {
-      "id": 3,
-      "name": "Waterstaff",
-      "price": 200,
-      "curse": "you cant drink water",
-      "effect": "you splash water"
-    },
-    {
-      "id": 4,
-      "name": "Potion zdrowia słaby",
-      "price": 20,
-      "curse": "",
-      "effect": "heal"
+  "artifacts": {
+    "rarity": {
+      "common" : [
+        {
+          "name": "Commonstaff",
+          "price": 100,
+          "curse": "",
+          "effect": "none atm :)"
+        }
+      ],
+
+      "rare" : [
+        {
+          "name": "Rarestaff",
+          "price": 400,
+          "curse": "",
+          "effect": "good"
+        }
+      ],
+      "epic" : [
+        {
+          "name": "Epicstaff",
+          "price": 1000,
+          "curse": "",
+          "effect": "soo epic"
+        }
+      ],
+      "legendary" : [
+        {
+          "name": "Legendearystaff",
+          "price": 7000,
+          "curse": "",
+          "effect": "legendary staff :()"
+        }
+      ]
     }
-  ]
+  }
+
+
 }

@@ -1,6 +1,10 @@
+import discord
+from discord.ext import commands
 import json
+import time
+from datetime import date
 import random
-
+import requests
 
 with open('artifacts.json') as artifact_file:  # open file as data variable
     data = json.load(artifact_file)
@@ -38,8 +42,30 @@ def generate_random_artifact():
 
         price = random_artifact["price"]
         price = price_modifier(price)
-        print(f'Name: {random_artifact["name"]}, Price: {price}')  # prints item id and name
+        print(f'Name: {random_artifact["name"]}, Price: {price}')# prints item id and name
+        return f'Name: {random_artifact["name"]}, Price: {price}'
 
 
-for i in range(100):
-    generate_random_artifact()
+client = commands.Bot(command_prefix='$')
+
+
+@client.event
+async def on_ready():
+    print('Logged on as ', client.user.name, client.user.id)
+    print("Date: ", date.today())
+    print('-----------------------------------------------')
+    await client.change_presence(status=discord.Status.online, activity=discord.Game('stall'))
+
+
+@client.command()
+async def gen_offer(ctx):
+    artifact = generate_random_artifact()
+    embed = discord.Embed(title='Your generated artifact',
+                          description=artifact,
+                          color=0x654321
+                          )
+    await ctx.send(embed=embed)
+
+
+client.run('ODI0OTcwOTEyMzgyMTg5NTcx.YF3ICA.xpeeRYRiLaA24YZw1TgxSWRh5Uo')
+

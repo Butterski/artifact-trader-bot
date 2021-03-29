@@ -53,6 +53,14 @@
           "description": "none atm :)"
           }
         ],
+          "uncommon":[
+          {
+          "name": "unCommonmagic",
+          "price": 100,
+          "curse": "",
+          "description": "none atm :)"
+          }
+        ],
         "rare":[
           {
           "name": "Raremagic",
@@ -84,6 +92,14 @@
            "common":[
           {
           "name": "Commonsword",
+          "price": 100,
+          "curse": "",
+          "description": "none atm :)"
+          }
+        ],
+           "uncommon":[
+          {
+          "name": "unCommonsword",
           "price": 100,
           "curse": "",
           "description": "none atm :)"

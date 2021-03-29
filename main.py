@@ -6,6 +6,7 @@ from datetime import date
 import random
 import requests
 
+
 with open('artifacts.json') as artifact_file:  # open file as data variable
     data = json.load(artifact_file)
 

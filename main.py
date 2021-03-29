@@ -3,7 +3,6 @@ from discord.ext import commands
 import json
 import time
 from datetime import date
-from token import TOKEN
 import random
 import requests
 
@@ -43,8 +42,10 @@ def generate_random_artifact():
 
         price = random_artifact["price"]
         price = price_modifier(price)
-        print(f'Name: {random_artifact["name"]}, Price: {price}')# prints item id and name
-        return f'Name: {random_artifact["name"]}, Price: {price}'
+        name = random_artifact["name"]
+        curse = random_artifact["curse"]
+        effect = random_artifact["effect"]
+        return name, price, effect, curse
 
 
 client = commands.Bot(command_prefix='$')
@@ -68,5 +69,5 @@ async def gen_offer(ctx):
     await ctx.send(embed=embed)
 
 
-client.run(TOKEN)
+client.run('ODI0OTcwOTEyMzgyMTg5NTcx.YF3ICA.xpeeRYRiLaA24YZw1TgxSWRh5Uo')
 

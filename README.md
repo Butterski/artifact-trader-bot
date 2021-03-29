@@ -2,6 +2,6 @@
 **todo:**
 - [ ] dodanie main funkji
 - [x] plik json z artefaktami
-- [ ] grafiki
+- [x] grafiki
 - [ ] dodanie tego wszystkiego do bota
 

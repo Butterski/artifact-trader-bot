@@ -60,13 +60,17 @@ async def on_ready():
 
 
 @client.command()
-async def gen_offer(ctx):
-    artifact = generate_random_artifact()
-    embed = discord.Embed(title='Your generated artifact',
-                          description=artifact,
-                          color=0x654321
-                          )
-    await ctx.send(embed=embed)
+async def gen_offer(ctx, how_many):
+    if int(how_many) > 5:
+        how_many = 5
+    for i in range(int(how_many)):
+        name, price, effect, curse = generate_random_artifact()
+        embed = discord.Embed(title='Here is my offer for you today',
+                              description=f'**{name}**\n Price: **{price}** \n "{effect}"',
+                              color=0x654321
+                              )
+        embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/721846941926817924/825500010174480384/avatar.png')
+        await ctx.send(embed=embed)
 
 
 client.run('ODI0OTcwOTEyMzgyMTg5NTcx.YF3ICA.xpeeRYRiLaA24YZw1TgxSWRh5Uo')

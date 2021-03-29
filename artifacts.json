@@ -10,6 +10,14 @@
           "description": "none atm :)"
           }
         ],
+        "uncommon":[
+          {
+          "name": "unCommongoods",
+          "price": 100,
+          "curse": "",
+          "description": "none atm :)"
+          }
+        ],
         "rare":[
           {
           "name": "Raregoods",

@@ -1,41 +1,113 @@
 {
-  "artifacts": {
-    "rarity": {
-      "common" : [
-        {
-          "name": "Commonstaff",
+  "artifacts":{
+    "general":{
+      "rarity":{
+        "common":[
+          {
+          "name": "Commongoods",
           "price": 100,
           "curse": "",
-          "effect": "none atm :)"
-        }
-      ],
-
-      "rare" : [
-        {
-          "name": "Rarestaff",
-          "price": 400,
+          "description": "none atm :)"
+          }
+        ],
+        "rare":[
+          {
+          "name": "Raregoods",
+          "price": 300,
           "curse": "",
-          "effect": "good"
-        }
-      ],
-      "epic" : [
-        {
-          "name": "Epicstaff",
-          "price": 1000,
+          "description": "none atm :)"
+          }
+        ],
+        "epic":[
+          {
+          "name": "Epicgoods",
+          "price": 700,
           "curse": "",
-          "effect": "soo epic"
-        }
-      ],
-      "legendary" : [
-        {
-          "name": "Legendearystaff",
+          "description": "none atm :)"
+          }
+        ],
+        "legendary":[
+           {
+          "name": "Legendarygoods",
           "price": 7000,
           "curse": "",
-          "effect": "legendary staff :()"
+          "description": "none atm :)"
+          }
+        ],
+
+
+        "magic":{
+          "common":[
+          {
+          "name": "Commonmagic",
+          "price": 100,
+          "curse": "",
+          "description": "none atm :)"
+          }
+        ],
+        "rare":[
+          {
+          "name": "Raremagic",
+          "price": 300,
+          "curse": "",
+          "description": "none atm :)"
+          }
+        ],
+        "epic":[
+          {
+          "name": "Epicmagic",
+          "price": 700,
+          "curse": "",
+          "description": "none atm :)"
+          }
+        ],
+        "legendary":[
+           {
+          "name": "Legendarymagic",
+          "price": 7000,
+          "curse": "",
+          "description": "none atm :)"
+            }
+          ]
+        },
+
+
+        "smith":{
+           "common":[
+          {
+          "name": "Commonsword",
+          "price": 100,
+          "curse": "",
+          "description": "none atm :)"
+          }
+        ],
+        "rare":[
+          {
+          "name": "Raresword",
+          "price": 300,
+          "curse": "",
+          "description": "none atm :)"
+          }
+        ],
+        "epic":[
+          {
+          "name": "Epicsword",
+          "price": 700,
+          "curse": "",
+          "description": "none atm :)"
+          }
+        ],
+        "legendary":[
+           {
+          "name": "Legendarysword",
+          "price": 7000,
+          "curse": "",
+          "description": "none atm :)"
+            }
+          ]
         }
-      ]
+      }
     }
   }
-
-
 }
+

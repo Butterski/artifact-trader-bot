@@ -1,4 +1,5 @@
 # Artifact Trader Bot
+## Version 0.0.1
 **todo:**
 - [x] plik json z artefaktami
 - [x] grafiki
@@ -7,4 +8,3 @@
 - [ ] dodanie prawdziwych przedmiotow do jsona :cowboy_hat_face:
 
 ![avatar](https://cdn.discordapp.com/attachments/721846941926817924/825500010174480384/avatar.png)
-test

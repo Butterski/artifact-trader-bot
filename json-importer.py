@@ -2,6 +2,16 @@ from tkinter import *
 import json
 
 file_name = 'test.json'
+shop_types = [
+    "general",
+    "magic"
+]
+rarities = [
+    'common',
+    'rare',
+    'epic',
+    'legendary'
+]
 
 with open(file_name) as artifact_file:  # open file as data variable
     data = json.load(artifact_file)
@@ -20,9 +30,9 @@ def add_to_json():
          "description": f'{item_description.get()}'
          }
 
-    temp = data["artifacts"][shop_type.get()]["rarity"][rarity_type.get()]
-    print(temp)
+    temp = data["artifacts"][variable_shops.get()]["rarity"][variable_rarities.get()]
     print(y)
+    Label(master, text=f'Added: {item_name.get()}\n in {variable_shops.get()} as {variable_rarities.get()} rarity', font=("Arial", 12)).grid(row=7, column=1)
     temp.append(y)
     write_json(data)
     item_name.delete(0, END)
@@ -31,6 +41,10 @@ def add_to_json():
 
 
 master = Tk()
+variable_shops = StringVar(master)
+variable_shops.set(shop_types[0])
+variable_rarities = StringVar(master)
+variable_rarities.set(rarities[0])
 master.title(f"Adding items to {file_name}")
 master.geometry("600x300+150+150")
 Label(master, text="Shop Type", font=("Helvetica", 18)).grid(row=0)
@@ -39,8 +53,8 @@ Label(master, text="Item Name", font=("Helvetica", 18)).grid(row=2)
 Label(master, text="Item Price", font=("Helvetica", 18)).grid(row=3)
 Label(master, text="Item Description", font=("Helvetica", 18)).grid(row=4)
 
-shop_type = Entry(master, width=60, bd=4)
-rarity_type = Entry(master, width=60, bd=4)
+shop_type = OptionMenu(master, variable_shops, *shop_types)
+rarity_type = OptionMenu(master, variable_rarities, *rarities)
 item_name = Entry(master, width=60, bd=4)
 item_price = Entry(master, width=60, bd=4)
 item_description = Entry(master, width=60, bd=4)
@@ -53,5 +67,6 @@ item_description.grid(row=4, column=1)
 
 
 Button(master, text='Add', command=add_to_json, width=50, bg='grey').grid(row=6, column=1, sticky=NW, pady=4)
+
 
 mainloop()

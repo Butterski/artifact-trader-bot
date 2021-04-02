@@ -1,0 +1,79 @@
+{
+    "artifacts": {
+        "general": {
+            "rarity": {
+                "common": [
+                    {
+                        "name": "Commongoods",
+                        "price": 100,
+                        "curse": "",
+                        "description": "none atm :)"
+                    },
+                    {
+                        "name": "test_common",
+                        "price": "69",
+                        "description": "to tylko test"
+                    }
+                ],
+                "rare": [
+                    {
+                        "name": "Raregoods",
+                        "price": 300,
+                        "curse": "",
+                        "description": "none atm :)"
+                    }
+                ],
+                "epic": [
+                    {
+                        "name": "Epicgoods",
+                        "price": 700,
+                        "curse": "",
+                        "description": "none atm :)"
+                    }
+                ],
+                "legendary": [
+                    {
+                        "name": "Legendarygoods",
+                        "price": 7000,
+                        "curse": "",
+                        "description": "none atm :)"
+                    }
+                ],
+                "magic": {
+                    "common": [
+                        {
+                            "name": "Commonmagic",
+                            "price": 100,
+                            "curse": "",
+                            "description": "none atm :)"
+                        }
+                    ],
+                    "rare": [
+                        {
+                            "name": "Raremagic",
+                            "price": 300,
+                            "curse": "",
+                            "description": "none atm :)"
+                        }
+                    ],
+                    "epic": [
+                        {
+                            "name": "Epicmagic",
+                            "price": 700,
+                            "curse": "",
+                            "description": "none atm :)"
+                        }
+                    ],
+                    "legendary": [
+                        {
+                            "name": "Legendarymagic",
+                            "price": 7000,
+                            "curse": "",
+                            "description": "none atm :)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

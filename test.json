@@ -26,6 +26,21 @@
                         "price": 300,
                         "curse": "",
                         "description": "none atm :)"
+                    },
+                    {
+                        "name": "Rareitem",
+                        "price": "10",
+                        "description": "super testing"
+                    },
+                    {
+                        "name": "juz nie moge",
+                        "price": "23",
+                        "description": "pomocy"
+                    },
+                    {
+                        "name": "juz moge",
+                        "price": "23",
+                        "description": "opis"
                     }
                 ],
                 "epic": [
@@ -34,6 +49,11 @@
                         "price": 700,
                         "curse": "",
                         "description": "none atm :)"
+                    },
+                    {
+                        "name": "Epictester",
+                        "price": "123",
+                        "description": "testrtatst"
                     }
                 ],
                 "legendary": [
@@ -42,42 +62,54 @@
                         "price": 7000,
                         "curse": "",
                         "description": "none atm :)"
+                    },
+                    {
+                        "name": "Legendary test",
+                        "price": "1",
+                        "description": "ahahhahahahaha"
+                    }
+                ]
+            }
+        },
+        "magic": {
+            "rarity": {
+                "common": [
+                    {
+                        "name": "Commonmagic",
+                        "price": 100,
+                        "curse": "",
+                        "description": "none atm :)"
                     }
                 ],
-                "magic": {
-                    "common": [
-                        {
-                            "name": "Commonmagic",
-                            "price": 100,
-                            "curse": "",
-                            "description": "none atm :)"
-                        }
-                    ],
-                    "rare": [
-                        {
-                            "name": "Raremagic",
-                            "price": 300,
-                            "curse": "",
-                            "description": "none atm :)"
-                        }
-                    ],
-                    "epic": [
-                        {
-                            "name": "Epicmagic",
-                            "price": 700,
-                            "curse": "",
-                            "description": "none atm :)"
-                        }
-                    ],
-                    "legendary": [
-                        {
-                            "name": "Legendarymagic",
-                            "price": 7000,
-                            "curse": "",
-                            "description": "none atm :)"
-                        }
-                    ]
-                }
+                "rare": [
+                    {
+                        "name": "Raremagic",
+                        "price": 300,
+                        "curse": "",
+                        "description": "none atm :)"
+                    }
+                ],
+                "epic": [
+                    {
+                        "name": "Epicmagic",
+                        "price": 700,
+                        "curse": "",
+                        "description": "none atm :)"
+                    }
+                ],
+                "legendary": [
+                    {
+                        "name": "Legendarymagic",
+                        "price": 7000,
+                        "curse": "",
+                        "description": "none atm :)"
+                    },
+                    {
+                        "name": "Legendarny test",
+                        "price": "32",
+                        "description": "dzia\u0142a"
+                    }
+                ]
             }
         }
     }

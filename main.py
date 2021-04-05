@@ -99,13 +99,11 @@ async def on_reaction_add(reaction, user):
     if reaction.message.channel.id == 828717938231476285:
         reactions = reaction.message.reactions
         reaction_message_id = reaction.message.id
-        print(reactions)
         for reacts in reactions:
             if reacts.emoji == '📨' and reacts.count > 1:
                 todo_channel = client.get_channel(826401709798588436)
                 channel = client.get_channel(828717938231476285)
                 msg = await channel.fetch_message(reaction_message_id)
-                print(msg)
                 await todo_channel.send(embed=msg.embeds[0])
             if reacts.emoji == '🗑️' and reacts.count > 1:
                 await reaction.message.delete()

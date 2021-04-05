@@ -47,6 +47,7 @@ variable_rarities = StringVar(master)
 variable_rarities.set(rarities[0])
 master.title(f"Adding items to {file_name}")
 master.geometry("600x300+150+150")
+
 Label(master, text="Shop Type", font=("Helvetica", 18)).grid(row=0)
 Label(master, text="Rarity Type", font=("Helvetica", 18)).grid(row=1)
 Label(master, text="Item Name", font=("Helvetica", 18)).grid(row=2)

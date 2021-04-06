@@ -11,6 +11,7 @@ with open('artifacts.json') as artifact_file:  # open file as data variable
     data = json.load(artifact_file)
 
 msg_dump_channel = 828717938231476285
+testing_guild = 825400163504750593
 
 """
 1-40 - common
@@ -50,7 +51,7 @@ def generate_random_artifact():
         return name, price, description, curse
 
 
-client = commands.Bot(command_prefix='$')
+client = commands.Bot(command_prefix='$', intents=discord.Intents.all())
 
 
 @client.event

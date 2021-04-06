@@ -1,113 +1,108 @@
 {
-  "artifacts":{
-    "general":{
-      "rarity":{
-        "common":[
-          {
-          "name": "Commongoods",
-          "price": 100,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-        "rare":[
-          {
-          "name": "Raregoods",
-          "price": 300,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-        "epic":[
-          {
-          "name": "Epicgoods",
-          "price": 700,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-        "legendary":[
-           {
-          "name": "Legendarygoods",
-          "price": 7000,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-
-
-        "magic":{
-          "common":[
-          {
-          "name": "Commonmagic",
-          "price": 100,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-        "rare":[
-          {
-          "name": "Raremagic",
-          "price": 300,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-        "epic":[
-          {
-          "name": "Epicmagic",
-          "price": 700,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-        "legendary":[
-           {
-          "name": "Legendarymagic",
-          "price": 7000,
-          "curse": "",
-          "description": "none atm :)"
+    "artifacts": {
+        "general": {
+            "rarity": {
+                "common": [
+                    {
+                        "name": "Commongoods",
+                        "price": 100,
+                        "description": "none atm :)"
+                    },
+                    {
+                        "name": "test_common",
+                        "price": 69,
+                        "description": "to tylko test"
+                    },
+                    {
+                        "name": "test_common",
+                        "price": 69,
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                    }
+                ],
+                "rare": [
+                    {
+                        "name": "Raregoods",
+                        "price": 300,
+                        "description": "none atm :)"
+                    },
+                    {
+                        "name": "Rareitem",
+                        "price": 10,
+                        "description": "super testing"
+                    },
+                    {
+                        "name": "juz nie moge",
+                        "price": 23,
+                        "description": "pomocy"
+                    },
+                    {
+                        "name": "juz moge",
+                        "price": 23,
+                        "description": "opis"
+                    }
+                ],
+                "epic": [
+                    {
+                        "name": "Epicgoods",
+                        "price": 700,
+                        "description": "none atm :)"
+                    },
+                    {
+                        "name": "Epictester",
+                        "price": 123,
+                        "description": "testrtatst"
+                    }
+                ],
+                "legendary": [
+                    {
+                        "name": "Legendarygoods",
+                        "price": 7000,
+                        "description": "none atm :)"
+                    },
+                    {
+                        "name": "Legendary test",
+                        "price": 100000,
+                        "description": "ahahhahahahaha"
+                    }
+                ]
             }
-          ]
         },
-
-
-        "smith":{
-           "common":[
-          {
-          "name": "Commonsword",
-          "price": 100,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-        "rare":[
-          {
-          "name": "Raresword",
-          "price": 300,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-        "epic":[
-          {
-          "name": "Epicsword",
-          "price": 700,
-          "curse": "",
-          "description": "none atm :)"
-          }
-        ],
-        "legendary":[
-           {
-          "name": "Legendarysword",
-          "price": 7000,
-          "curse": "",
-          "description": "none atm :)"
+        "magic": {
+            "rarity": {
+                "common": [
+                    {
+                        "name": "Commonmagic",
+                        "price": 100,
+                        "description": "none atm :)"
+                    }
+                ],
+                "rare": [
+                    {
+                        "name": "Raremagic",
+                        "price": 300,
+                        "description": "none atm :)"
+                    }
+                ],
+                "epic": [
+                    {
+                        "name": "Epicmagic",
+                        "price": 700,
+                        "description": "none atm :)"
+                    }
+                ],
+                "legendary": [
+                    {
+                        "name": "Legendarymagic",
+                        "price": 7000,
+                        "description": "none atm :)"
+                    },
+                    {
+                        "name": "Legendarny test",
+                        "price": 32,
+                        "description": "dziau0142a"
+                    }
+                ]
             }
-          ]
         }
-      }
     }
-  }
 }
-

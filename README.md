@@ -1,4 +1,5 @@
 # Artifact Trader Bot
+## Version 0.0.2
 **todo:**
 - [x] plik json z artefaktami
 - [x] grafiki

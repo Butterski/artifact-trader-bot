@@ -6,38 +6,40 @@
                     {
                         "name": "Commongoods",
                         "price": 100,
+                        "curse": "",
                         "description": "none atm :)"
                     },
                     {
                         "name": "test_common",
-                        "price": 69,
+                        "price": "69",
                         "description": "to tylko test"
                     },
                     {
-                        "name": "test_common",
-                        "price": 69,
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+                        "name": "Commonjson",
+                        "price": "25",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum lectus mauris ultrices eros in. Velit egestas dui id ornare arcu odio. Auctor augue mauris augue neque. Ac tortor dignissim convallis aenean et tortor at risus viverra. Id diam vel quam elementum pulvinar etiam non. Lobortis elementum nibh tellus molestie nunc non blandit. Morbi tristique senectus et netus et. In fermentum et sollicitudin ac orci phasellus egestas. Feugiat vivamus at augue eget. In nulla posuere sollicitudin aliquam ultrices sagittis. Dolor morbi non arcu risus quis varius. Nisl nunc mi ipsum faucibus vitae aliquet nec. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Donec pretium vulputate sapien nec sagittis aliquam malesuada. Dignissim enim sit amet venenatis urna cursus eget nunc scelerisque. Commodo nulla facilisi nullam vehicula ipsum a.\n\nMollis nunc sed id semper risus in hendrerit gravida rutrum. Eget velit aliquet sagittis id consectetur purus ut. Nunc sed augue lacus viverra vitae congue eu consequat ac. Porttitor rhoncus dolor purus non. Congue mauris rhoncus aenean vel elit scelerisque mauris. Sit amet commodo nulla facilisi nullam vehicula ipsum a. Blandit turpis cursus in hac habitasse. Feugiat in ante metus dictum at tempor commodo. Facilisis gravida neque convallis a. Lorem ipsum dolor sit amet consectetur adipiscing elit. Fermentum leo vel orci porta non. Integer enim neque volutpat ac tincidunt. Nunc eget lorem dolor sed viverra. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Ut diam quam nulla porttitor massa id neque aliquam. Integer quis auctor elit sed vulputate. Eget nulla facilisi etiam dignissim. Tellus elementum sagittis vitae et leo duis."
                     }
                 ],
                 "rare": [
                     {
                         "name": "Raregoods",
                         "price": 300,
+                        "curse": "",
                         "description": "none atm :)"
                     },
                     {
                         "name": "Rareitem",
-                        "price": 10,
+                        "price": "10",
                         "description": "super testing"
                     },
                     {
                         "name": "juz nie moge",
-                        "price": 23,
+                        "price": "23",
                         "description": "pomocy"
                     },
                     {
                         "name": "juz moge",
-                        "price": 23,
+                        "price": "23",
                         "description": "opis"
                     }
                 ],
@@ -45,11 +47,12 @@
                     {
                         "name": "Epicgoods",
                         "price": 700,
+                        "curse": "",
                         "description": "none atm :)"
                     },
                     {
                         "name": "Epictester",
-                        "price": 123,
+                        "price": "123",
                         "description": "testrtatst"
                     }
                 ],
@@ -57,11 +60,12 @@
                     {
                         "name": "Legendarygoods",
                         "price": 7000,
+                        "curse": "",
                         "description": "none atm :)"
                     },
                     {
                         "name": "Legendary test",
-                        "price": 100000,
+                        "price": "1",
                         "description": "ahahhahahahaha"
                     }
                 ]
@@ -73,6 +77,7 @@
                     {
                         "name": "Commonmagic",
                         "price": 100,
+                        "curse": "",
                         "description": "none atm :)"
                     }
                 ],
@@ -80,6 +85,7 @@
                     {
                         "name": "Raremagic",
                         "price": 300,
+                        "curse": "",
                         "description": "none atm :)"
                     }
                 ],
@@ -87,6 +93,7 @@
                     {
                         "name": "Epicmagic",
                         "price": 700,
+                        "curse": "",
                         "description": "none atm :)"
                     }
                 ],
@@ -94,12 +101,13 @@
                     {
                         "name": "Legendarymagic",
                         "price": 7000,
+                        "curse": "",
                         "description": "none atm :)"
                     },
                     {
                         "name": "Legendarny test",
-                        "price": 32,
-                        "description": "dziau0142a"
+                        "price": "32",
+                        "description": "dzia\u0142a"
                     }
                 ]
             }

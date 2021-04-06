@@ -62,7 +62,7 @@ async def on_ready():
     print('Logged on as ', client.user.name, client.user.id)
     print("Date: ", date.today())
 
-    await client.change_presence(status=discord.Status.online, activity=discord.Game('stall'))
+    await client.change_presence(status=discord.Status.online, activity=discord.Game('$help - for commands'))
 
 
 @client.command()

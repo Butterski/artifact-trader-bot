@@ -66,6 +66,24 @@ async def on_ready():
 
 
 @client.command()
+async def help(ctx):
+    author = ctx.message.author
+    embed = discord.Embed(title="General ", color=0x491fe0)
+    embed.set_author(name="Help")
+    embed.add_field(name="`$help`", value="Shows you this message :)", inline=True)
+    embed.add_field(name="-",
+                    value="-", inline=False)
+    embed.add_field(name="`$gen_offer [x]`",
+                    value="Generates your offers where [x] is how many offers should it generate", inline=True)
+    embed.add_field(name="-",
+                    value="-", inline=False)
+    embed.add_field(name="`$s [suggestion]`, `$sugg [suggestion]`, `$suggestion [suggestion]`",
+                    value="Send this command as private message and submit your suggestion :)", inline=True)
+    embed.set_footer(text="Please send suggestions ")
+    await ctx.send(embed=embed)
+
+
+@client.command()
 async def gen_offer(ctx, how_many=1):
     if int(how_many) > 15:
         how_many = 15

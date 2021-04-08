@@ -1,8 +1,9 @@
 # Artifact Trader Bot
+## Version 0.0.3
 **todo:**
 - [x] plik json z artefaktami
 - [x] grafiki
-- [ ] dodanie tego wszystkiego do bota
+- [x] dodanie tego wszystkiego do bota
 - [x] dodanie rarity przedmiotów
 - [x] Kolor w zaleznosci od przedmiotu
 - [x] dodanie możliwości dodawania sugestii

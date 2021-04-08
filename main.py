@@ -115,6 +115,7 @@ async def suggestion(ctx, *, sugg):
         emojis = ['📨', '🗑️']
         for emoji in emojis:
             react = await message.add_reaction(emoji)
+        await ctx.send("Thank you for your suggestion! :blush: It will be send to our dev team :man_technologist:")
 
 
 @client.event

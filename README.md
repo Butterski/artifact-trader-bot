@@ -1,13 +1,23 @@
-# Artifact Trader Bot
-## Version 0.0.3
-**todo:**
-- [x] plik json z artefaktami
-- [x] grafiki
-- [x] dodanie tego wszystkiego do bota
-- [x] dodanie rarity przedmiotów
-- [x] Kolor w zaleznosci od przedmiotu
-- [x] dodanie możliwości dodawania sugestii
-- [ ] dodanie prawdziwych przedmiotow do jsona :cowboy_hat_face:
-- [x] dodac komende help - gdzies widziałem poradnik gdzie komendy sa dodawane automatycznie i nie trzeba tego recznie dodawac
 
+# Artifact Trader Discord Bot
+
+It's a Discord bot that me and my friends intended to use on out D&D sessions but we didn't use it :)
+
+Me and my friends don't want to finish it but you can gather here some nice code 'chunks' that you can use in your project.
+
+
+
+## Running
+
+Download latest version
+
+```bash
+  python3 main.py
+```
+
+and we are ready to go.
+
+All you have to do now is change channels id to your ownand you will be good.
+
+They are on line `12, 13, 123` 
 ![avatar](https://cdn.discordapp.com/attachments/721846941926817924/825500010174480384/avatar.png)
